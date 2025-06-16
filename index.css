@@ -1,0 +1,74 @@
+ .u-section-1 {
+  background-image: url("images/minecraft_landscape-wallpaper-1600x900.jpg");
+  background-position: 50% 50%;
+  min-height: 100vh;
+}
+
+.u-section-1 .u-group-elements-1 {
+  width: 400px;
+  min-height: 182px;
+  height: auto;
+  margin: 229px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  width: 300px;
+  font-size: 6rem;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  --radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: linear-gradient(120deg, #208600, black);
+  margin: 10px auto 60px;
+  padding: 15px 42px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    font-size: 4rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.3333333333333333rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1.3333333333333333rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-elements-1 {
+    width: 340px;
+    min-height: 121px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
+  }
+}
